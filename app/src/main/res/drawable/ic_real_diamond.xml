@@ -1,0 +1,162 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+
+    <!-- Ambient crystal soft glow behind diamond -->
+    <path
+        android:pathData="M48,8 L86,34 L48,90 L10,34 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="48"
+                android:centerY="45"
+                android:gradientRadius="44"
+                android:type="radial">
+                <item android:offset="0.0" android:color="#5500E5FF" />
+                <item android:offset="0.7" android:color="#220091EA" />
+                <item android:offset="1.0" android:color="#00000000" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Table Facet (Top Flat Center) -->
+    <path
+        android:pathData="M28,14 L68,14 L82,34 L14,34 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="14"
+                android:startY="14"
+                android:endX="82"
+                android:endY="34"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#B2EBF2" />
+                <item android:offset="0.35" android:color="#E0F7FA" />
+                <item android:offset="0.7" android:color="#80DEEA" />
+                <item android:offset="1.0" android:color="#4DD0E1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Center Upper Crown Triangle -->
+    <path
+        android:pathData="M36,14 L60,14 L48,34 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="48"
+                android:startY="14"
+                android:endX="48"
+                android:endY="34"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF" />
+                <item android:offset="1.0" android:color="#B2EBF2" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Crown Left Outer Facet -->
+    <path
+        android:pathData="M28,14 L14,34 L36,34 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="14"
+                android:startY="14"
+                android:endX="36"
+                android:endY="34"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#80DEEA" />
+                <item android:offset="1.0" android:color="#00ACC1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Crown Right Outer Facet -->
+    <path
+        android:pathData="M68,14 L82,34 L60,34 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="60"
+                android:startY="14"
+                android:endX="82"
+                android:endY="34"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#4DD0E1" />
+                <item android:offset="1.0" android:color="#0097A7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Pavilion Center Main Facet (Downward Arrow) -->
+    <path
+        android:pathData="M34,34 L62,34 L48,88 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="48"
+                android:startY="34"
+                android:endX="48"
+                android:endY="88"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#E0F7FA" />
+                <item android:offset="0.4" android:color="#4DD0E1" />
+                <item android:offset="0.8" android:color="#0097A7" />
+                <item android:offset="1.0" android:color="#006064" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Pavilion Left Inner Facet -->
+    <path
+        android:pathData="M14,34 L34,34 L48,88 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="14"
+                android:startY="34"
+                android:endX="48"
+                android:endY="88"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00BCD4" />
+                <item android:offset="0.5" android:color="#00838F" />
+                <item android:offset="1.0" android:color="#004D40" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Pavilion Right Inner Facet -->
+    <path
+        android:pathData="M62,34 L82,34 L48,88 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="82"
+                android:startY="34"
+                android:endX="48"
+                android:endY="88"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#26C6DA" />
+                <item android:offset="0.5" android:color="#0097A7" />
+                <item android:offset="1.0" android:color="#006064" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Sharp Gemstone Inner Reflection Lines -->
+    <path
+        android:pathData="M34,34 L48,88 M62,34 L48,88 M48,34 L48,88 M14,34 L82,34 M28,14 L68,14 M36,14 L48,34 L60,14"
+        android:strokeColor="#80FFFFFF"
+        android:strokeWidth="1.2" />
+
+    <!-- Pure White Bright Specular Glint (Top-Left Reflection) -->
+    <path
+        android:pathData="M30,16 L46,16 L38,24 Z"
+        android:fillColor="#E6FFFFFF" />
+
+    <!-- Gemstone Diamond Sparkle Star 1 (Top Right) -->
+    <path
+        android:pathData="M78,16 C78,20 74,22 70,22 C74,22 78,24 78,28 C78,24 82,22 86,22 C82,22 78,20 78,16 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Gemstone Diamond Sparkle Star 2 (Bottom Point) -->
+    <path
+        android:pathData="M48,80 C48,83 46,84 43,84 C46,84 48,85 48,88 C48,85 50,84 53,84 C50,84 48,83 48,80 Z"
+        android:fillColor="#CCFFFFFF" />
+</vector>

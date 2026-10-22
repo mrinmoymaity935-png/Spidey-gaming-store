@@ -1,0 +1,107 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="128dp"
+    android:height="128dp"
+    android:viewportWidth="128"
+    android:viewportHeight="128">
+
+    <!-- Top Ribbon of the Geometric Hexagon "S" -->
+    <path
+        android:pathData="M64,12 L106,36.5 L106,62 L74,44 L74,58 L92,68 L64,84 L64,68 L48,58 L48,44 L64,35 L90,49 L90,41 L64,26 L38,41 L38,52 L22,43 L22,36.5 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="22"
+                android:startY="12"
+                android:endX="106"
+                android:endY="84"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00D4FF" />
+                <item android:offset="0.5" android:color="#0070F3" />
+                <item android:offset="1.0" android:color="#0055D4" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Clean crisp isometric Hexagonal "S" model -->
+    <!-- Top-Right Outer Hex Block -->
+    <path
+        android:pathData="M64,10 L108,35.5 L108,60 L78,43 L78,57 L108,74 L108,82 L64,107 L64,93 L92,77 L92,72 L64,56 L64,42 L92,58 L92,40 L64,24 L36,40 L36,58 L20,49 L20,35.5 Z"
+        android:fillColor="#00000000" />
+
+    <!-- True exact geometric rendering of the reference S Hexagon -->
+    <!-- Part 1: Top Wing / Hook -->
+    <path
+        android:pathData="M64,10 L108,35 L108,64 L74,44 L74,58 L94,70 L64,88 L64,72 L46,62 L46,46 L64,36 L88,50 L88,40 L64,26 L40,40 L40,54 L20,42 L20,35 Z"
+        android:fillColor="#00000000" />
+
+    <!-- Exact matching paths for the image Hexagon "S" -->
+    <!-- Upper Block -->
+    <path
+        android:pathData="M64,8 L110,34.5 L110,64 L80,47 L80,59 L110,76 L86,90 L86,76 L64,63 L64,48 L86,60 L86,43 L64,30 L42,43 L42,57 L22,45 L22,34.5 Z"
+        android:fillColor="#00000000" />
+
+    <!-- Let's construct the precise solid polygonal isometric Hexagon 'S' matching the photo -->
+    <!-- Top Part of the S -->
+    <path
+        android:pathData="M64,12 L106,36 L106,60 L76,43 L76,57 L96,69 L64,88 L64,72 L48,63 L48,46 L64,37 L86,50 L86,41 L64,28 L42,41 L42,53 L22,41 L22,36 Z"
+        android:fillColor="#00000000" />
+
+    <!-- Pure crisp geometric definition: -->
+    <!-- 1. Upper Loop of S -->
+    <path
+        android:pathData="M64,12 L106,36 L106,58 L78,42 L78,56 L98,68 L74,82 L74,68 L54,56 L54,44 L64,38 L84,50 L84,42 L64,30 L44,42 L44,52 L22,39 L22,36 Z"
+        android:fillColor="#00000000" />
+
+    <!-- Solid Ribbon A (Top Hook): -->
+    <path
+        android:pathData="M64,14 L106,38 L106,64 L80,49 L80,62 L64,53 L64,37 L86,50 L86,42 L64,29 L42,42 L42,54 L22,42 L22,38 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="22"
+                android:startY="14"
+                android:endX="106"
+                android:endY="64"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00D4FF" />
+                <item android:offset="1.0" android:color="#0066FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Solid Ribbon B (Bottom Hook): -->
+    <path
+        android:pathData="M64,114 L22,90 L22,64 L48,79 L48,66 L64,75 L64,91 L42,78 L42,86 L64,99 L86,86 L86,74 L106,86 L106,90 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="22"
+                android:startY="64"
+                android:endX="106"
+                android:endY="114"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0055D4" />
+                <item android:offset="1.0" android:color="#00359E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Center Diagonal Bridge forming the full S: -->
+    <path
+        android:pathData="M48,66 L80,49 L80,62 L48,79 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="48"
+                android:startY="49"
+                android:endX="80"
+                android:endY="79"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0066FF" />
+                <item android:offset="1.0" android:color="#0055D4" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Top facet highlight -->
+    <path
+        android:pathData="M64,14 L106,38 L92,46 L64,30 L36,46 L22,38 Z"
+        android:fillColor="#33FFFFFF" />
+</vector>
